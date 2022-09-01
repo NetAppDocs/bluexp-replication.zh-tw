@@ -185,9 +185,7 @@
   <block id="4bf49185216f4e917fd8dcc50ee1ff2c" category="list-text">如果ONTAP 內部使用的是內部使用的叢集、請使用Direct Connect或VPN連線、確保內部部署網路與AWS VPC之間的連線能力。</block>
   <block id="58e046b3f4ec304e4456cda8151a574b" category="section-title">在系統之間複寫資料</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">您可以選擇一次性資料複寫來複寫資料、這有助於您在雲端之間移動資料、或是循環排程、以協助進行災難恢復或長期保留。</block>
-  <block id="29e71d65fc647320e822efb6ec422c56" category="list-text">在「畫版」頁面上、選取包含來源磁碟區的工作環境、然後將其拖曳至您要複寫磁碟區的工作環境。</block>
   <block id="f058b2239a935219edfc3818d7b5cb9e" category="inline-image-macro">螢幕擷取畫面：顯示工作環境置於另一個工作環境之上、以開始資料複寫程序。</block>
-  <block id="f0fb2fde0c29810d08233a36012cb972" category="paragraph"><block ref="f0fb2fde0c29810d08233a36012cb972" category="inline-image-macro-rx" type="image"></block></block>
   <block id="362a388c30edcb2f99cceb3fe86d98c1" category="list-text">*來源與目的地對等設定*：如果出現此頁面、請選取叢集對等關係的所有叢集間生命體。</block>
   <block id="bea31cd643e991ddda33528781bb08e5" category="paragraph">叢集間網路的設定應讓叢集對等端點具有 _ 配對式全網狀連線 _ 、這表示叢集對等關係中的每一對叢集在其所有叢集間生命體之間都具有連線能力。</block>
   <block id="2de4794fb8257073e92d6ea494fd0157" category="paragraph">如果 ONTAP 來源或目的地是包含多個 lifs 的 Sourc時 叢集、就會出現這些頁面。</block>
@@ -225,7 +223,6 @@
   <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">支援註冊可從支援儀表板的Cloud Manager取得。</block>
   <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">在* Resources（資源）*選項卡中，單擊* Register for Support*（註冊以獲得支持*）。</block>
   <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">選取您要登錄的NSS認證、然後按一下「*登錄*」。</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
   <block id="7596270426e8c5f92be308ff330e0e64" category="sidebar">複寫文件</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -239,4 +236,11 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
+  <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSX for ONTAP Sfor Sfor the Data來源</block>
+  <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfingfile系統複寫到下列目的地：</block>
+  <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">內部部署 ONTAP 的叢集</block>
+  <block id="5aa1fbc4561178f17ae944c56ea9c22e" category="list-text">在畫版上、選取包含來源磁碟區的工作環境、將其拖曳至您要複寫磁碟區的工作環境、然後選取* Replication *。</block>
+  <block id="467e7c8bbebd5d8880767fb4213184dc" category="paragraph"><block ref="467e7c8bbebd5d8880767fb4213184dc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2be8439d89ba35425f3565fe4d0cc2a1" category="paragraph">其餘步驟則提供範例、說明如何在Cloud Volumes ONTAP 下列項目之間建立同步關係：ONTAP</block>
 </blocks>
