@@ -18,13 +18,9 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
   <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善Cloud Manager。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp支援</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">除了上述的自我支援選項、您也可以與NetApp支援工程師合作、在您啟動支援之後解決任何問題。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在Cloud Manager中、按一下*「說明」&gt;「支援」*。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在「Technical Support（技術支援）」下選擇可用的選項之一：</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">按一下*致電我們*以尋找NetApp技術支援的電話號碼。</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">按一下「*開啟問題*」、選取其中一個選項、然後按一下「*傳送*」。</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp代表將審查您的案例、並盡快回覆您。</block>
   <block id="f44753cd1ded9ad0818a4d62481460e9" category="summary">與鏡射原則不同的是、備份SnapVault 功能不一定會將特定的Snapshot複本複本複製到目的地Volume。如果您想要使用自己的原則而非預設原則、請務必瞭解備份原則的運作方式。</block>
   <block id="87531525c3b816a3a29dbbcbcd9e58b1" category="doc">深入瞭解複寫原則</block>
   <block id="77ae0badcc9669dcf09b0b6ddb602a5a" category="paragraph">與鏡射原則不同的是、備份 SnapVault （鏡射）原則會將特定的 Snapshot 複本複本複寫到目的地 Volume 。如果您想要使用自己的原則而非預設原則、請務必瞭解備份原則的運作方式。</block>
@@ -174,15 +170,10 @@
   <block id="d5c8c6b85589a3255105df8b8a5a8e77" category="list-text">若要在Cloud Volumes ONTAP 不同雲端供應商的兩個供應鏈系統之間複寫資料、您必須在虛擬網路之間建立VPN連線。</block>
   <block id="4f98fe32c8059fcb89742310b7175e7f" category="list-text">特定於叢集的需求 ONTAP</block>
   <block id="8c4a805dde66a7461e7760fe982d066f" category="list-text">必須安裝主動式 SnapMirror 授權。</block>
-  <block id="e133ed2609aff998f4ad7507f5e823eb" category="list-text">如果叢集位於內部部署環境中、您應該可以從公司網路連線到AWS、Azure或GCP中的虛擬網路。這通常是VPN連線。</block>
   <block id="1fbce003d68708feb24931b9e6366f50" category="list-text">叢集必須符合額外的子網路、連接埠、防火牆和叢集需求。 ONTAP</block>
   <block id="d7bb556723e915c43fe4fd9b0f90d545" category="inline-link">請參閱ONTAP 《知識庫》文件中的叢集對等條件</block>
   <block id="54aa7fca826fcb0f6caefb80a82fe037" category="paragraph"><block ref="54aa7fca826fcb0f6caefb80a82fe037" category="inline-link-rx"></block></block>
   <block id="4f473a2a941d4fd7b4a68e3cd98e934c" category="list-text">Amazon FSX for ONTAP Sf.的特定需求</block>
-  <block id="e895824a462fdee602e050151c64f0a6" category="list-text">Amazon FSX ONTAP for the S動運轉 環境必須是資料複寫關係的目標。</block>
-  <block id="7002d9ba5a8e7d19055405e260941870" category="paragraph">來源可以Cloud Volumes ONTAP 是不一樣的、也可以是內部ONTAP 的不全叢集。</block>
-  <block id="fec5e9f11ead982ba633a364695b9cff" category="list-text">如果Cloud Volumes ONTAP 來源為「支援功能」、請啟用VPC對等或使用「傳輸閘道」來確保VPC之間的連線能力。</block>
-  <block id="4bf49185216f4e917fd8dcc50ee1ff2c" category="list-text">如果ONTAP 內部使用的是內部使用的叢集、請使用Direct Connect或VPN連線、確保內部部署網路與AWS VPC之間的連線能力。</block>
   <block id="58e046b3f4ec304e4456cda8151a574b" category="section-title">在系統之間複寫資料</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">您可以選擇一次性資料複寫來複寫資料、這有助於您在雲端之間移動資料、或是循環排程、以協助進行災難恢復或長期保留。</block>
   <block id="f058b2239a935219edfc3818d7b5cb9e" category="inline-image-macro">螢幕擷取畫面：顯示工作環境置於另一個工作環境之上、以開始資料複寫程序。</block>
@@ -243,4 +234,34 @@
   <block id="5aa1fbc4561178f17ae944c56ea9c22e" category="list-text">在畫版上、選取包含來源磁碟區的工作環境、將其拖曳至您要複寫磁碟區的工作環境、然後選取* Replication *。</block>
   <block id="467e7c8bbebd5d8880767fb4213184dc" category="paragraph"><block ref="467e7c8bbebd5d8880767fb4213184dc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2be8439d89ba35425f3565fe4d0cc2a1" category="paragraph">其餘步驟則提供範例、說明如何在Cloud Volumes ONTAP 下列項目之間建立同步關係：ONTAP</block>
+  <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">2022年9月18日</block>
+  <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSX for ONTAP Sfor Sfto Cloud Volumes ONTAP</block>
+  <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfor Sfor Sfor Sf供 檔案系統複寫至Cloud Volumes ONTAP 支援功能。</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">瞭解如何註冊以取得支援</block>
+  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">若要使用*建立案例*功能、您必須先執行Cloud Manager帳戶ID序號的一次性登錄（即960xxxx）。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您想與電話上的其他人通話、請按一下*「呼叫我們*」。您將會被導向netapp.com上的頁面、其中列出您可以撥打的電話號碼。</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">按一下*建立案例*、與NetApp支援專家一起開啟問題單：</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*《支援帳戶*》：選取與開立支援案例的人員相關的適用的NSS帳戶。NetApp 支援網站除了以下提供的其他電子郵件之外、此人將是NetApp聯絡的主要聯絡人。</block>
+  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">如果您看不到您的NSS帳戶、可以瀏覽至Cloud Manager「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</block>
+  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*服務*：選取問題相關的服務。例如、Cloud Manager在特定於服務工作流程或功能的技術支援問題時。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
+  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的Cloud Manager帳戶、工作區和Connector範圍內。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例優先順序*：選擇案例的優先順序、可以是低、中、高或嚴重。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">若要深入瞭解這些優先順序、請將滑鼠游標暫留在欄位名稱旁的資訊圖示上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題、請輸入其他電子郵件地址。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">「建立案例」表單的快照、可讓您使用NetApp支援建立案例。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">您的支援案例編號會出現快顯視窗。NetApp支援專家將會審查您的案例、並盡快回覆您。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">如需支援案例的記錄、請按一下*設定&gt;時間軸*、然後尋找名為「create support case」的行動。 最右側的按鈕可讓您展開動作以查看詳細資料。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時、可能會遇到下列錯誤訊息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
+  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">此錯誤可能表示、與此相關聯的NSS帳戶及記錄公司與Cloud Manager帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="913f5c084102a0d1bd37403b15c46b13" category="list-text">如果叢集位於內部部署環境中、您應該可以從公司網路連線到AWS、Azure或Google Cloud中的虛擬網路。這通常是VPN連線。</block>
+  <block id="0b2859515841917b8dcb93767366e15a" category="list-text">如果Cloud Volumes ONTAP 需求是其中的一部分、請啟用VPC對等或使用Transit Gateway、確保VPC之間的連線能力。</block>
+  <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">如果內部ONTAP 部署的叢集是這種關係的一部分、請使用Direct Connect或VPN連線、確保內部部署網路與AWS VPC之間的連線能力。</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
 </blocks>

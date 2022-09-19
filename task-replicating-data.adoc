@@ -56,7 +56,7 @@ https://docs.netapp.com/us-en/ontap/data-protection/compatible-ontap-versions-sn
 +
 --
 * 必須安裝主動式 SnapMirror 授權。
-* 如果叢集位於內部部署環境中、您應該可以從公司網路連線到AWS、Azure或GCP中的虛擬網路。這通常是VPN連線。
+* 如果叢集位於內部部署環境中、您應該可以從公司網路連線到AWS、Azure或Google Cloud中的虛擬網路。這通常是VPN連線。
 * 叢集必須符合額外的子網路、連接埠、防火牆和叢集需求。 ONTAP
 +
 https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["請參閱ONTAP 《知識庫》文件中的叢集對等條件"^]
@@ -67,12 +67,8 @@ https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_f
 Amazon FSX for ONTAP Sf.的特定需求::
 +
 --
-* Amazon FSX ONTAP for the S動運轉 環境必須是資料複寫關係的目標。
-+
-來源可以Cloud Volumes ONTAP 是不一樣的、也可以是內部ONTAP 的不全叢集。
-
-* 如果Cloud Volumes ONTAP 來源為「支援功能」、請啟用VPC對等或使用「傳輸閘道」來確保VPC之間的連線能力。
-* 如果ONTAP 內部使用的是內部使用的叢集、請使用Direct Connect或VPN連線、確保內部部署網路與AWS VPC之間的連線能力。
+* 如果Cloud Volumes ONTAP 需求是其中的一部分、請啟用VPC對等或使用Transit Gateway、確保VPC之間的連線能力。
+* 如果內部ONTAP 部署的叢集是這種關係的一部分、請使用Direct Connect或VPN連線、確保內部部署網路與AWS VPC之間的連線能力。
 
 
 --

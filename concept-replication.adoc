@@ -60,6 +60,7 @@ Cloud Manager可在下列工作環境類型之間進行資料複寫。
 
 | Amazon FSX for ONTAP Sf  a| 
 * Amazon FSX for ONTAP Sf
+* Cloud Volumes ONTAP
 * 內部ONTAP 使用的叢集
 
 
