@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-managing-replication.html 
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, source, destination, schedule, relationship, break, resync, max transfer, maximum transfer rate, rate, transfer rate, reverse resync, status, replication status, disaster recovery, DR, archive, archiving, retention 
-summary: 在兩個系統之間設定資料複寫之後、即可從 Cloud Manager 管理資料複寫排程和關係。 
+summary: 在兩個系統之間設定資料複寫之後、您可以從BlueXP管理資料複寫排程和關係。 
 ---
 = 管理排程與關係
 :hardbreaks:
@@ -14,10 +14,10 @@ summary: 在兩個系統之間設定資料複寫之後、即可從 Cloud Manager
 
 
 [role="lead"]
-在兩個系統之間設定資料複寫之後、即可從 Cloud Manager 管理資料複寫排程和關係。
+在兩個系統之間設定資料複寫之後、您可以從BlueXP管理資料複寫排程和關係。
 
 .步驟
-. 按一下「*複寫*」。
+. 從導覽功能表中、選取*保護>複寫*。
 . 檢閱資料複寫關係的狀態、確認它們是否健全。
 +
 
@@ -68,4 +68,4 @@ NOTE: 當您重新同步磁碟區時、目的地磁碟區上的內容會被來�
 |===
 
 
-選取動作之後、 Cloud Manager 會更新關係或排程。
+選取動作之後、BlueXP會更新關係或排程。

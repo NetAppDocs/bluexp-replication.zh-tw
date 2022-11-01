@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-replicating-data.html 
-keywords: ontap, cluster, discover, manage, cloud manager, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, schedule, relationship, max transfer, maximum transfer rate, rate, transfer rate, intercluster lif, replication requirement, requirements, disaster recovery, DR, archive, archiving, retention, amazon fsx for ontap, fsx for ontap 
-summary: 您可以在 Cloud Manager 工作環境之間複寫資料。您可以選擇一次性資料複寫來在雲端之間來回移動資料、或選擇重複排程來進行災難恢復或長期保留。 
+keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, schedule, relationship, max transfer, maximum transfer rate, rate, transfer rate, intercluster lif, replication requirement, requirements, disaster recovery, DR, archive, archiving, retention, amazon fsx for ontap, fsx for ontap 
+summary: 您可以ONTAP 選擇一次性資料複寫來進行資料傳輸、或是選擇重複排程來進行災難恢復或長期保留、以便在各種不間斷的工作環境之間複寫資料。例如、您可以設定內部 ONTAP 系統的資料複寫、以 Cloud Volumes ONTAP 供災難恢復之用。 
 ---
 = 設定資料複寫
 :hardbreaks:
@@ -81,6 +81,7 @@ Amazon FSX for ONTAP Sf.的特定需求::
 您可以選擇一次性資料複寫來複寫資料、這有助於您在雲端之間移動資料、或是循環排程、以協助進行災難恢復或長期保留。
 
 .步驟
+. 從導覽功能表中、選取*儲存設備> Canvas*。
 . 在畫版上、選取包含來源磁碟區的工作環境、將其拖曳至您要複寫磁碟區的工作環境、然後選取* Replication *。
 +
 image:screenshot-drag-and-drop.png["螢幕擷取畫面：顯示工作環境置於另一個工作環境之上、以開始資料複寫程序。"]
@@ -119,4 +120,4 @@ image:screenshot-drag-and-drop.png["螢幕擷取畫面：顯示工作環境置�
 . *審查*：檢閱您的選擇、然後按一下「*執行*」。
 
 
-Cloud Manager 會啟動資料複寫程序。您可以在複寫服務中檢視磁碟區關係的詳細資料。
+BlueXP會啟動資料複寫程序。您可以在複寫服務中檢視磁碟區關係的詳細資料。

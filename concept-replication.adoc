@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-replication.html 
-keywords: ontap, cluster, discover, manage, cloud manager, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, disaster recovery, DR, archive, archiving, retention 
+keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, disaster recovery, DR, archive, archiving, retention 
 summary: NetApp SnapMirror可透過LAN或WAN高速複寫資料、因此您可以在虛擬與傳統環境中同時獲得高資料可用度與快速資料複寫。當您將資料複寫到NetApp儲存系統並持續更新次要資料時、資料會保持最新狀態、並在需要時隨時保持可用。不需要外部複寫伺服器。 
 ---
 = 深入瞭解複寫服務
@@ -35,7 +35,7 @@ NetApp並不收取使用複寫服務的費用、但您必須向雲端供應商�
 
 == 支援的工作環境
 
-Cloud Manager可在下列工作環境類型之間進行資料複寫。
+BlueXP可在下列工作環境類型之間進行資料複寫。
 
 [cols="30,30"]
 |===
@@ -69,9 +69,9 @@ Cloud Manager可在下列工作環境類型之間進行資料複寫。
 
 == 資料複寫的運作方式
 
-Cloud Manager ONTAP 使用SnapMirror和SnapVault SnapMirror技術、簡化個別支援的各個作業系統上磁碟區之間的資料複寫作業。您只需識別來源磁碟區和目的地磁碟區、然後選擇複寫原則和排程即可。
+BlueXP使用ONTAP SnapMirror和SnapVault SnapMirror技術、簡化個別支援之更新系統上各磁碟區之間的資料複寫作業。您只需識別來源磁碟區和目的地磁碟區、然後選擇複寫原則和排程即可。
 
-對於NetApp、Cloud Manager會購買所需的磁碟、設定關係、套用複寫原則、然後在磁碟區之間開始基礎傳輸。Cloud Volumes ONTAP
+針對此功能、BlueXP會購買所需的磁碟、設定關係、套用複寫原則、然後在磁碟區之間開始基礎傳輸。Cloud Volumes ONTAP
 
 
 NOTE: 基礎傳輸包含來源資料的完整複本。後續傳輸包含來源資料的差異複本。
@@ -80,7 +80,7 @@ NOTE: 基礎傳輸包含來源資料的完整複本。後續傳輸包含來源�
 
 == 支援的資料保護組態
 
-Cloud Manager 支援簡單易用、可展開及串聯的資料保護組態：
+BlueXP支援簡單易用、可展開及串聯的資料保護組態：
 
 * 在簡單的組態中、從磁碟區 A 複寫到磁碟區 B
 * 在扇出組態中、從磁碟區 A 複寫到多個目的地。

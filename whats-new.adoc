@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: 瞭解複寫服務的新功能。 
+summary: 瞭解BlueXP（前身為Cloud Manager）中的複寫服務有哪些新功能。 
 ---
 = 新功能
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 瞭解複寫服務的新功能。
 
 
 [role="lead"]
-瞭解複寫服務的新功能。
+瞭解BlueXP（前身為Cloud Manager）中的複寫服務有哪些新功能。
 
 
 
