@@ -26,7 +26,7 @@ summary: 瞭解BlueXP（前身為Cloud Manager）中的複寫服務有哪些新�
 
 您現在可以將資料從Amazon FSX for ONTAP Sfor Sfor Sfor Sf供 檔案系統複寫至Cloud Volumes ONTAP 支援功能。
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
 
 
 
@@ -42,7 +42,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 * 內部部署 ONTAP 的叢集
 
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
 
 
 
@@ -54,7 +54,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 您現在可以將資料從Cloud Volumes ONTAP 一套不間斷的系統或內部部署ONTAP 的一套功能的叢集複寫到Amazon FSX for ONTAP 整個檔案系統。
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
 
 
 
@@ -66,4 +66,4 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 我們重新設計了「複寫」索引標籤、以方便使用、並符合Cloud Manager使用者介面的目前外觀與風格。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-replication/main/media/replication.gif["Cloud Manager中重新設計的「複寫」索引標籤快照、顯示磁碟區關係清單。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-replication/main/media/replication.gif["Cloud Manager中重新設計的「複寫」索引標籤快照、顯示磁碟區關係清單。"]

@@ -1,1 +1,1 @@
-# cloud-manager-replication
+# bluexp-replication

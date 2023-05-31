@@ -25,12 +25,12 @@ summary: 您可以ONTAP 選擇一次性資料複寫來進行資料傳輸、或�
 工作環境:: 如果您尚未建立資料複寫關係中的來源和目標、則必須建立工作環境。
 +
 --
-* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["建立Amazon FSX以利ONTAP 不工作環境"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在Cloud Volumes ONTAP AWS中啟動"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在Cloud Volumes ONTAP Azure中推出功能"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP GCP中推出"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["新增現有Cloud Volumes ONTAP 的系統"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["探索 ONTAP 叢集"^]
+* https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/task-getting-started-fsx.html["建立Amazon FSX以利ONTAP 不工作環境"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在Cloud Volumes ONTAP AWS中啟動"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在Cloud Volumes ONTAP Azure中推出功能"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP GCP中推出"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html["新增現有Cloud Volumes ONTAP 的系統"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["探索 ONTAP 叢集"^]
 
 
 --
