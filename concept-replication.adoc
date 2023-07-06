@@ -86,3 +86,18 @@ BlueXP支援簡單易用、可展開及串聯的資料保護組態：
 * 在扇出組態中、從磁碟區 A 複寫到多個目的地。
 * 在串聯組態中、從磁碟區 A 複寫到磁碟區 B 、從磁碟區 B 複寫到磁碟區 C
 
+
+
+
+== 使用 BlueXP 備份與還原來複寫資料
+
+從 BlueXP Connector 3.9.31 版本開始、 BlueXP 備份與還原可讓您使用 SnapMirror 和 SnapVault 技術、在不同 ONTAP 系統上的磁碟區之間複寫資料。因此、如果您計畫將資料複寫到其他 ONTAP 系統、並且想要將相同資料的備份建立到物件儲存區、您可能會想要使用 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^] 這樣您就能透過單一服務來管理資料保護需求。
+
+目前、 BlueXP 複寫服務僅支援下列功能、而非使用 BlueXP 備份與還原的複寫功能。
+
+* 不支援串聯組態、從磁碟區 A 複寫到磁碟區 B 、然後從磁碟區 B 複寫到磁碟區 C
+* 不支援在 ONTAP 系統的 FSX 之間或從 FSX 複寫資料。
+* 不支援建立磁碟區一次性複寫。
+
+
+因此、如果您需要任何此功能、請使用 BlueXP 複寫。

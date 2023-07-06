@@ -361,4 +361,12 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">升級Cloud Volumes ONTAP 更新版的更新版</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">將 NSS 認證與 BlueXP 帳戶建立關聯、與 BlueXP 使用者登入相關的 NSS 帳戶不同。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">這些 NSS 認證會與您的特定 BlueXP 帳戶 ID 相關聯。屬於BlueXP帳戶的使用者可以從*支援&gt; nss管理*存取這些認證資料。</block>
+  <block id="31fd9b4d5ab71f1bab6cf8522f760d0a" category="section-title">使用 BlueXP 備份與還原來複寫資料</block>
+  <block id="ede1cce9f240fed5ecc4264bd699cee1" category="inline-link">BlueXP 備份與還原</block>
+  <block id="66979f555a68186ee239dfc6698f984d" category="paragraph">從 BlueXP Connector 3.9.31 版本開始、 BlueXP 備份與還原可讓您使用 SnapMirror 和 SnapVault 技術、在不同 ONTAP 系統上的磁碟區之間複寫資料。因此、如果您計畫將資料複寫到其他 ONTAP 系統、並且想要將相同資料的備份建立到物件儲存區、您可能會想要使用<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> 這樣您就能透過單一服務來管理資料保護需求。</block>
+  <block id="fdebf565d05cf95ccf5d24605af82d89" category="paragraph">目前、 BlueXP 複寫服務僅支援下列功能、而非使用 BlueXP 備份與還原的複寫功能。</block>
+  <block id="e012112c73378e2a2d1fd1a0fa9c2795" category="list-text">不支援串聯組態、從磁碟區 A 複寫到磁碟區 B 、然後從磁碟區 B 複寫到磁碟區 C</block>
+  <block id="baf48e0aa2c3928a76f5ae4cfa863af0" category="list-text">不支援在 ONTAP 系統的 FSX 之間或從 FSX 複寫資料。</block>
+  <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">不支援建立磁碟區一次性複寫。</block>
+  <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">因此、如果您需要任何此功能、請使用 BlueXP 複寫。</block>
 </blocks>
