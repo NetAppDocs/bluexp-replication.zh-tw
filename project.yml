@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Replication
+  name: BlueXP replication
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,13 +11,13 @@ settings:
   langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: 複寫文件
+  - title: BlueXP 複寫文件
     url: "/index.html"
   - title: 版本資訊
     url: "/whats-new.html"
   - title: 開始使用
     entries:
-    - title: 深入瞭解複寫服務
+    - title: 瞭解 BlueXP 複寫
       url: "/concept-replication.html"
     - title: 設定資料複寫
       url: "/task-replicating-data.html"
@@ -41,11 +41,11 @@ homepage:
   tiles:
   - title: 開始使用
     links:
-    - title: 深入瞭解複寫服務
+    - title: 瞭解 BlueXP 複寫
       url: concept-replication.html
     - title: 設定資料複寫
       url: task-replicating-data.html
-  - title: 使用複寫服務
+  - title: 使用 BlueXP 複寫
     links:
     - title: 管理資料複寫
       url: task-managing-replication.html

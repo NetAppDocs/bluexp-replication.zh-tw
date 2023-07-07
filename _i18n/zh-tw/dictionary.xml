@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="4d8208136280cbaba3cab05e5996a3a8" category="summary">在ONTAP 支援備份與災難恢復的不間斷儲存系統之間或雲端之間複寫資料。</block>
-  <block id="dc699e704dec5502b9aa219f9381ad94" category="doc">複寫文件</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
@@ -74,15 +73,12 @@
   <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">瞭解如何設定資料複寫</block>
   <block id="5057fdb214d9f3773bc386ba2aa1fcb0" category="section-title">2021年5月5日</block>
   <block id="1473f0729c8bea54a5077a19ab764c47" category="section-title">重新設計的介面</block>
-  <block id="5a0a1bceb9fa4494f5bd231c6eb87a5b" category="paragraph">我們重新設計了「複寫」索引標籤、以方便使用、並符合Cloud Manager使用者介面的目前外觀與風格。</block>
   <block id="0f9405518138d20fd96d78fe19dabf84" category="inline-image-macro">Cloud Manager中重新設計的「複寫」索引標籤快照、顯示磁碟區關係清單。</block>
   <block id="aeeec0576922eb4490b5fabadc6c4e36" category="summary">NetApp SnapMirror可透過LAN或WAN高速複寫資料、因此您可以在虛擬與傳統環境中同時獲得高資料可用度與快速資料複寫。當您將資料複寫到NetApp儲存系統並持續更新次要資料時、資料會保持最新狀態、並在需要時隨時保持可用。不需要外部複寫伺服器。</block>
-  <block id="e60519215887d589e148f68a2f5d2a06" category="doc">深入瞭解複寫服務</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="58598c037819ab3e58b8ee6d0d634246" category="list-text">以高可用度確保災難恢復環境的可靠性。</block>
   <block id="6c12db213eb53a8ef7d470254e0395be" category="list-text">效能優異的區塊層級複寫ONTAP 功能可在不中斷的情況下快速有效地進行、並提供精細的災難恢復和備份還原點。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
-  <block id="51d8157d48cfe9c64b3f0f386d2e4e7b" category="paragraph">NetApp並不收取使用複寫服務的費用、但您必須向雲端供應商查詢適用的資料進出費用。</block>
   <block id="744db3ac634a7aa94269971ca3dc965e" category="section-title">支援的工作環境</block>
   <block id="9fd9b4e1af5d0e8b46abbd52a5c740cd" category="cell">來源工作環境</block>
   <block id="e4543e565352b9e4f4e71c2f648026f6" category="cell">支援的目標工作環境</block>
@@ -125,7 +121,6 @@
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">建立Amazon FSX以利ONTAP 不工作環境</block>
   <block id="a3272fd5c4bd1903de9b1b2f5e1665a8" category="inline-link">在Cloud Volumes ONTAP AWS中啟動</block>
   <block id="70c84621a7336f391b4b7df86b5f1396" category="inline-link">在Cloud Volumes ONTAP Azure中推出功能</block>
-  <block id="ce3503849689227dd8014f8ed3f5cb5e" category="inline-link">在Cloud Volumes ONTAP GCP中推出</block>
   <block id="6c0fb6078ec778ca2319e375a19e994b" category="inline-link">新增現有Cloud Volumes ONTAP 的系統</block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">探索 ONTAP 叢集</block>
   <block id="3fbe74eae84714fcfdd21edafe54f77f" category="list-text">版本需求</block>
@@ -169,7 +164,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出現提示時、按一下*繼續*以重新導向至Microsoft登入頁面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上、提供您的NetApp支援網站註冊電子郵件地址和密碼、以執行驗證程序。</block>
-  <block id="7596270426e8c5f92be308ff330e0e64" category="sidebar">複寫文件</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="c27a58445f6be9881526a37e46bb7d26" category="sidebar">管理資料複寫</block>
@@ -177,7 +171,6 @@
   <block id="fa26829830efe73376071e3b30f66d6a" category="sidebar">複寫原則</block>
   <block id="9f02509e5496e861df4c341dba05386e" category="sidebar">備份原則</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
-  <block id="96dbe21e840f318daaf871cafa9f1d1f" category="sidebar">使用複寫服務</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
@@ -209,7 +202,6 @@
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">如果Cloud Volumes ONTAP 需求是其中的一部分、請啟用VPC對等或使用Transit Gateway、確保VPC之間的連線能力。</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">如果內部ONTAP 部署的叢集是這種關係的一部分、請使用Direct Connect或VPN連線、確保內部部署網路與AWS VPC之間的連線能力。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">從導覽功能表中、選取*儲存設備&gt; Canvas*。</block>
-  <block id="b5346aabfb07747172bac9a45326a463" category="paragraph">BlueXP會啟動資料複寫程序。您可以在複寫服務中檢視磁碟區關係的詳細資料。</block>
   <block id="30f8f8912c844cee545e88597d12bbab" category="summary">在兩個系統之間設定資料複寫之後、您可以從BlueXP管理資料複寫排程和關係。</block>
   <block id="3b5a034beecbb1a2d60171dfe195f2df" category="list-text">從導覽功能表中、選取*保護&gt;複寫*。</block>
   <block id="b49c40e645fcbad07d8747fe60951eee" category="paragraph">選取動作之後、BlueXP會更新關係或排程。</block>
@@ -255,11 +247,7 @@
   <block id="09376463a89b70a46174403a8dd9b195" category="paragraph">BlueXP使用ONTAP SnapMirror和SnapVault SnapMirror技術、簡化個別支援之更新系統上各磁碟區之間的資料複寫作業。您只需識別來源磁碟區和目的地磁碟區、然後選擇複寫原則和排程即可。</block>
   <block id="632626c0e49d0ec90a3c09ab71cb38fc" category="paragraph">針對此功能、BlueXP會購買所需的磁碟、設定關係、套用複寫原則、然後在磁碟區之間開始基礎傳輸。Cloud Volumes ONTAP</block>
   <block id="778daec04c7f2f3e16024569d1955540" category="paragraph">BlueXP支援簡單易用、可展開及串聯的資料保護組態：</block>
-  <block id="c5a8374ee9fb158f61739b8d5bd880ef" category="summary">您可以在BlueXP工作環境之間複寫資料。您可以選擇一次性資料複寫來在雲端之間來回移動資料、或選擇重複排程來進行災難恢復或長期保留。</block>
   <block id="3efdcfead8281aadde8513c58855434b" category="paragraph">在BlueXP中設定資料複寫時、您可能需要協助選擇複寫原則。複寫原則定義儲存系統如何將資料從來源磁碟區複寫到目的地磁碟區。</block>
-  <block id="eb26b2f0ab3f4144da7840791e9e9cf0" category="summary">瞭解BlueXP（前身為Cloud Manager）中的複寫服務有哪些新功能。</block>
-  <block id="bcb152582247346e2f453fce02c1fc3c" category="inline-link-macro">BlueXP 3.9</block>
-  <block id="03f975e839e4278228720a5d19656288" category="paragraph"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
@@ -320,7 +308,6 @@
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
   <block id="58daf0847a76a7b1620f3558f8c5aaa6" category="list-text"><block ref="58daf0847a76a7b1620f3558f8c5aaa6" category="inline-link-rx"></block></block>
   <block id="ae344581f45a6d4593a2788f5e30015e" category="list-text"><block ref="ae344581f45a6d4593a2788f5e30015e" category="inline-link-rx"></block></block>
-  <block id="33f4a6dc8fe8627d8c8d45e16d3010a3" category="list-text"><block ref="33f4a6dc8fe8627d8c8d45e16d3010a3" category="inline-link-rx"></block></block>
   <block id="8fdf2adbca771b61e226157cc48ae918" category="list-text"><block ref="8fdf2adbca771b61e226157cc48ae918" category="inline-link-rx"></block></block>
   <block id="c42ed38279c50e4c5755f93ea09a9661" category="list-text"><block ref="c42ed38279c50e4c5755f93ea09a9661" category="inline-link-rx"></block></block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>。</block>
@@ -369,4 +356,16 @@
   <block id="baf48e0aa2c3928a76f5ae4cfa863af0" category="list-text">不支援在 ONTAP 系統的 FSX 之間或從 FSX 複寫資料。</block>
   <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">不支援建立磁碟區一次性複寫。</block>
   <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">因此、如果您需要任何此功能、請使用 BlueXP 複寫。</block>
+  <block id="62390de09bd56fbb6d4533a188f4f201" category="doc">BlueXP 複寫文件</block>
+  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link">在Cloud Volumes ONTAP Google Cloud上啟動</block>
+  <block id="626952d60302f9977a04f592cec299fb" category="list-text"><block ref="626952d60302f9977a04f592cec299fb" category="inline-link-rx"></block></block>
+  <block id="a7215108d548ffe7763ce1f9198d8994" category="paragraph">BlueXP會啟動資料複寫程序。您可以從 BlueXP 複寫服務檢視磁碟區關係的詳細資料。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="70f977daf295113b60f6c4b035cb3f02" category="doc">瞭解 BlueXP 複寫</block>
+  <block id="74ddb38c3b9b1f58e8ec0c893e2acc2c" category="paragraph">NetApp 不收取使用 BlueXP 複寫的費用、但您必須向雲端供應商查詢適用的資料進出費用。</block>
+  <block id="51ec975d41f1829ab090b8f898af8aa9" category="summary">瞭解 BlueXP 複寫的新功能。</block>
+  <block id="50839a9360a2ad4070bd1ba04d7e502a" category="paragraph">我們重新設計複寫服務、以方便使用、並符合使用者介面的目前外觀與風格。</block>
+  <block id="d87a7b7b52c9dad26684c49099c92944" category="sidebar">BlueXP 複寫文件</block>
+  <block id="e7c71db0ba7d050d4d85bc8cab04fc33" category="sidebar">使用 BlueXP 複寫</block>
 </blocks>

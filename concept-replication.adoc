@@ -4,7 +4,7 @@ permalink: concept-replication.html
 keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, disaster recovery, DR, archive, archiving, retention 
 summary: NetApp SnapMirror可透過LAN或WAN高速複寫資料、因此您可以在虛擬與傳統環境中同時獲得高資料可用度與快速資料複寫。當您將資料複寫到NetApp儲存系統並持續更新次要資料時、資料會保持最新狀態、並在需要時隨時保持可用。不需要外部複寫伺服器。 
 ---
-= 深入瞭解複寫服務
+= 瞭解 BlueXP 複寫
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -29,7 +29,7 @@ NetApp SnapMirror可透過LAN或WAN高速複寫資料、因此您可以在虛擬
 
 == 成本
 
-NetApp並不收取使用複寫服務的費用、但您必須向雲端供應商查詢適用的資料進出費用。
+NetApp 不收取使用 BlueXP 複寫的費用、但您必須向雲端供應商查詢適用的資料進出費用。
 
 
 

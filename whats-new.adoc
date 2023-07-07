@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: 瞭解BlueXP（前身為Cloud Manager）中的複寫服務有哪些新功能。 
+summary: 瞭解 BlueXP 複寫的新功能。 
 ---
 = 新功能
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 瞭解BlueXP（前身為Cloud Manager）中的複寫服務有哪些新�
 
 
 [role="lead"]
-瞭解BlueXP（前身為Cloud Manager）中的複寫服務有哪些新功能。
+瞭解 BlueXP 複寫的新功能。
 
 
 
@@ -64,6 +64,6 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭
 
 === 重新設計的介面
 
-我們重新設計了「複寫」索引標籤、以方便使用、並符合Cloud Manager使用者介面的目前外觀與風格。
+我們重新設計複寫服務、以方便使用、並符合使用者介面的目前外觀與風格。
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-replication/main/media/replication.gif["Cloud Manager中重新設計的「複寫」索引標籤快照、顯示磁碟區關係清單。"]
