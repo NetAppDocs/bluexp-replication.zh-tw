@@ -4,7 +4,7 @@ permalink: task-managing-replication.html
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, source, destination, schedule, relationship, break, resync, max transfer, maximum transfer rate, rate, transfer rate, reverse resync, status, replication status, disaster recovery, DR, archive, archiving, retention 
 summary: 在兩個系統之間設定資料複寫之後、您可以從BlueXP管理資料複寫排程和關係。 
 ---
-= 管理排程與關係
+= 管理資料複寫
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: concept-backup-policies.html
 keywords: snapvault, archive, archiving, retention 
 summary: 與鏡射原則不同的是、備份SnapVault 功能不一定會將特定的Snapshot複本複本複製到目的地Volume。如果您想要使用自己的原則而非預設原則、請務必瞭解備份原則的運作方式。 
 ---
-= 深入瞭解複寫原則
+= 瞭解備份原則
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

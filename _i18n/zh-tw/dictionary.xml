@@ -22,7 +22,6 @@
   <block id="82a50f0f6176439f52db3f00249bb062" category="paragraph">預設的 Snapshot 原則會建立每小時、每日和每週 Snapshot 複本、保留六個每小時、每天兩個和每週兩個 Snapshot 複本。</block>
   <block id="ffd11b2f9d7cbf737e9c7fb470bccfa5" category="paragraph">您可以將預設的備份原則與預設的 Snapshot 原則輕鬆搭配使用。預設的備份原則會複寫每日和每週的 Snapshot 複本、保留七個每日和每 52 個每週 Snapshot 複本。</block>
   <block id="148658bf400475bd13a5edab6c870d2f" category="paragraph">如果您建立自訂原則、則這些原則所定義的標籤必須相符。您可以使用 System Manager 建立自訂原則。</block>
-  <block id="2e4ca84ff13f65389599985c5d2a9f08" category="doc">管理排程與關係</block>
   <block id="775f5846d28de12857c9c89ae5d4a6e1" category="list-text">檢閱資料複寫關係的狀態、確認它們是否健全。</block>
   <block id="384cf3526eba01b7701f7fde08ba751e" category="admonition">如果關係的狀態為閒置且鏡射狀態未初始化、則您必須從目的地系統初始化關係、以便根據定義的排程進行資料複寫。您可以使用 System Manager 或命令列介面（ CLI ）初始化關係。當目的地系統故障後恢復連線時、這些狀態可能會出現。</block>
   <block id="2dc72a54b6e5367898238d6dcb40d246" category="inline-image-macro">螢幕擷取畫面：顯示「複寫狀態」頁面中可用的動作清單。</block>
@@ -109,7 +108,6 @@
   <block id="ad8bcd8268bd244944d22d0323e8d319" category="paragraph"><block ref="ad8bcd8268bd244944d22d0323e8d319" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aa03d16eacb954c7af08d5001cd67507" category="doc">設定資料複寫</block>
   <block id="745cc81e54713a1702ada65f4b222bce" category="paragraph">您可以ONTAP 選擇一次性資料複寫來進行資料傳輸、或是選擇重複排程來進行災難恢復或長期保留、以便在各種不間斷的工作環境之間複寫資料。例如、您可以設定內部 ONTAP 系統的資料複寫、以 Cloud Volumes ONTAP 供災難恢復之用。</block>
-  <block id="992753e7f234853a9e0f96d1ff637271" category="section-title">資料複寫需求</block>
   <block id="3f5c98f2da3fd65fbbfa955b13a433ab" category="paragraph">在複寫資料之前、您應該確認Cloud Volumes ONTAP 是否符合關於下列項目的特定要求：用作ONTAP 支援的功能來支援下列ONTAP 項目：</block>
   <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="list-text">工作環境</block>
   <block id="4afa74830ae584f2b792dfe5b6c79ccc" category="list-text">如果您尚未建立資料複寫關係中的來源和目標、則必須建立工作環境。</block>
@@ -133,7 +131,6 @@
   <block id="d7bb556723e915c43fe4fd9b0f90d545" category="inline-link">請參閱ONTAP 《知識庫》文件中的叢集對等條件</block>
   <block id="54aa7fca826fcb0f6caefb80a82fe037" category="paragraph"><block ref="54aa7fca826fcb0f6caefb80a82fe037" category="inline-link-rx"></block></block>
   <block id="4f473a2a941d4fd7b4a68e3cd98e934c" category="list-text">Amazon FSX for ONTAP Sf.的特定需求</block>
-  <block id="58e046b3f4ec304e4456cda8151a574b" category="section-title">在系統之間複寫資料</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">您可以選擇一次性資料複寫來複寫資料、這有助於您在雲端之間移動資料、或是循環排程、以協助進行災難恢復或長期保留。</block>
   <block id="f058b2239a935219edfc3818d7b5cb9e" category="inline-image-macro">螢幕擷取畫面：顯示工作環境置於另一個工作環境之上、以開始資料複寫程序。</block>
   <block id="362a388c30edcb2f99cceb3fe86d98c1" category="list-text">*來源與目的地對等設定*：如果出現此頁面、請選取叢集對等關係的所有叢集間生命體。</block>
@@ -158,9 +155,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="c27a58445f6be9881526a37e46bb7d26" category="sidebar">管理資料複寫</block>
-  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
-  <block id="fa26829830efe73376071e3b30f66d6a" category="sidebar">複寫原則</block>
-  <block id="9f02509e5496e861df4c341dba05386e" category="sidebar">備份原則</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
@@ -373,4 +367,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
+  <block id="46ebfd1e0393caa0f34b574489afb56f" category="section-title">步驟 1 ：檢閱資料複寫需求</block>
+  <block id="94d63941f5733e2475f76dcc24cbaab4" category="section-title">步驟 2 ：在系統之間複寫資料</block>
+  <block id="30926cdd94e56dd228449e15c0e4474c" category="doc">瞭解備份原則</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="sidebar">深入瞭解</block>
 </blocks>

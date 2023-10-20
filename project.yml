@@ -14,7 +14,9 @@ sidebar:
   - title: BlueXP 複寫文件
     url: "/index.html"
   - title: 版本資訊
-    url: "/whats-new.html"
+    entries:
+    - title: 新增功能
+      url: "/whats-new.html"
   - title: 開始使用
     entries:
     - title: 瞭解 BlueXP 複寫
@@ -23,11 +25,11 @@ sidebar:
       url: "/task-replicating-data.html"
   - title: 管理資料複寫
     url: "/task-managing-replication.html"
-  - title: 概念
+  - title: 深入瞭解
     entries:
-    - title: 複寫原則
+    - title: 深入瞭解複寫原則
       url: "/concept-replication-policies.html"
-    - title: 備份原則
+    - title: 瞭解備份原則
       url: "/concept-backup-policies.html"
   - title: 知識與支援
     entries:
