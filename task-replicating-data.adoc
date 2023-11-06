@@ -26,9 +26,7 @@ summary: 您可以ONTAP 選擇一次性資料複寫來進行資料傳輸、或�
 +
 --
 * https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/task-getting-started-fsx.html["建立Amazon FSX以利ONTAP 不工作環境"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在Cloud Volumes ONTAP AWS中啟動"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在Cloud Volumes ONTAP Azure中推出功能"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-overview-cvo.html["建立 Cloud Volumes ONTAP 工作環境"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html["新增現有Cloud Volumes ONTAP 的系統"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["探索 ONTAP 叢集"^]
 
@@ -56,7 +54,7 @@ https://docs.netapp.com/us-en/ontap/data-protection/compatible-ontap-versions-sn
 +
 --
 * 必須安裝主動式 SnapMirror 授權。
-* 如果叢集位於內部部署環境中、您應該可以從公司網路連線到AWS、Azure或Google Cloud中的虛擬網路。這通常是VPN連線。
+* 如果叢集位於內部部署、您應該要從公司網路連線到雲端中的虛擬網路。這通常是VPN連線。
 * 叢集必須符合額外的子網路、連接埠、防火牆和叢集需求。 ONTAP
 +
 https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["請參閱ONTAP 《知識庫》文件中的叢集對等條件"^]

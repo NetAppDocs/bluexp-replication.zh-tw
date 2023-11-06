@@ -112,8 +112,6 @@
   <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="list-text">工作環境</block>
   <block id="4afa74830ae584f2b792dfe5b6c79ccc" category="list-text">如果您尚未建立資料複寫關係中的來源和目標、則必須建立工作環境。</block>
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">建立Amazon FSX以利ONTAP 不工作環境</block>
-  <block id="a3272fd5c4bd1903de9b1b2f5e1665a8" category="inline-link">在Cloud Volumes ONTAP AWS中啟動</block>
-  <block id="70c84621a7336f391b4b7df86b5f1396" category="inline-link">在Cloud Volumes ONTAP Azure中推出功能</block>
   <block id="6c0fb6078ec778ca2319e375a19e994b" category="inline-link">新增現有Cloud Volumes ONTAP 的系統</block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">探索 ONTAP 叢集</block>
   <block id="3fbe74eae84714fcfdd21edafe54f77f" category="list-text">版本需求</block>
@@ -181,7 +179,6 @@
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="913f5c084102a0d1bd37403b15c46b13" category="list-text">如果叢集位於內部部署環境中、您應該可以從公司網路連線到AWS、Azure或Google Cloud中的虛擬網路。這通常是VPN連線。</block>
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">如果Cloud Volumes ONTAP 需求是其中的一部分、請啟用VPC對等或使用Transit Gateway、確保VPC之間的連線能力。</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">如果內部ONTAP 部署的叢集是這種關係的一部分、請使用Direct Connect或VPN連線、確保內部部署網路與AWS VPC之間的連線能力。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">從導覽功能表中、選取*儲存設備&gt; Canvas*。</block>
@@ -279,8 +276,6 @@
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
-  <block id="58daf0847a76a7b1620f3558f8c5aaa6" category="list-text"><block ref="58daf0847a76a7b1620f3558f8c5aaa6" category="inline-link-rx"></block></block>
-  <block id="ae344581f45a6d4593a2788f5e30015e" category="list-text"><block ref="ae344581f45a6d4593a2788f5e30015e" category="inline-link-rx"></block></block>
   <block id="8fdf2adbca771b61e226157cc48ae918" category="list-text"><block ref="8fdf2adbca771b61e226157cc48ae918" category="inline-link-rx"></block></block>
   <block id="c42ed38279c50e4c5755f93ea09a9661" category="list-text"><block ref="c42ed38279c50e4c5755f93ea09a9661" category="inline-link-rx"></block></block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>。</block>
@@ -325,8 +320,6 @@
   <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">不支援建立磁碟區一次性複寫。</block>
   <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">因此、如果您需要任何此功能、請使用 BlueXP 複寫。</block>
   <block id="62390de09bd56fbb6d4533a188f4f201" category="doc">BlueXP 複寫文件</block>
-  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link">在Cloud Volumes ONTAP Google Cloud上啟動</block>
-  <block id="626952d60302f9977a04f592cec299fb" category="list-text"><block ref="626952d60302f9977a04f592cec299fb" category="inline-link-rx"></block></block>
   <block id="a7215108d548ffe7763ce1f9198d8994" category="paragraph">BlueXP會啟動資料複寫程序。您可以從 BlueXP 複寫服務檢視磁碟區關係的詳細資料。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
@@ -372,4 +365,7 @@
   <block id="30926cdd94e56dd228449e15c0e4474c" category="doc">瞭解備份原則</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="d59048f21fd887ad520398ce677be586" category="sidebar">深入瞭解</block>
+  <block id="99a83347a58b400f105b44e515a16e59" category="inline-link">建立 Cloud Volumes ONTAP 工作環境</block>
+  <block id="dbfdbb36eb5065fce9a76d7ae82068ab" category="list-text"><block ref="dbfdbb36eb5065fce9a76d7ae82068ab" category="inline-link-rx"></block></block>
+  <block id="cb4d7a152cb523ddb41e8b55186ecaf9" category="list-text">如果叢集位於內部部署、您應該要從公司網路連線到雲端中的虛擬網路。這通常是VPN連線。</block>
 </blocks>
