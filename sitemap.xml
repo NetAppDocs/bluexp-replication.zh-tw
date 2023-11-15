@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/concept-backup-policies.html</loc>
+      
+      <lastmod>2023-10-20T16:16:55+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/concept-replication-policies.html</loc>
+      
+      <lastmod>2023-07-07T13:19:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/concept-replication.html</loc>
+      
+      <lastmod>2023-07-07T13:19:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/</loc>
+      
+      <lastmod>2023-11-15T17:47:17+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/legal-notices.html</loc>
+      
+      <lastmod>2023-08-09T13:54:33+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication//search.html</loc>
+      
+      <lastmod>2023-11-15T17:47:33+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/task-get-help.html</loc>
+      
+      <lastmod>2023-10-03T18:52:15+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/task-managing-replication.html</loc>
+      
+      <lastmod>2023-10-20T16:16:55+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/task-replicating-data.html</loc>
+      
+      <lastmod>2023-11-06T17:30:04+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/task-support-registration.html</loc>
+      
+      <lastmod>2023-10-03T18:52:15+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-replication/whats-new.html</loc>
+      
+      <lastmod>2023-07-07T13:19:24+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>
