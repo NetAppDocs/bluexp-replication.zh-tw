@@ -39,26 +39,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 瞭解 BlueXP 複寫
-      url: concept-replication.html
-    - title: 設定資料複寫
-      url: task-replicating-data.html
-  - title: 使用 BlueXP 複寫
-    links:
-    - title: 管理資料複寫
-      url: task-managing-replication.html
-  - title: 部落格社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://cloud.netapp.com/blog
-    - title: 雲端網路研討會
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
