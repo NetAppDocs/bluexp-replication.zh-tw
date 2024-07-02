@@ -126,7 +126,6 @@
   <block id="8c4a805dde66a7461e7760fe982d066f" category="list-text">必須安裝主動式 SnapMirror 授權。</block>
   <block id="1fbce003d68708feb24931b9e6366f50" category="list-text">叢集必須符合額外的子網路、連接埠、防火牆和叢集需求。 ONTAP</block>
   <block id="d7bb556723e915c43fe4fd9b0f90d545" category="inline-link">請參閱ONTAP 《知識庫》文件中的叢集對等條件</block>
-  <block id="54aa7fca826fcb0f6caefb80a82fe037" category="paragraph"><block ref="54aa7fca826fcb0f6caefb80a82fe037" category="inline-link-rx"></block></block>
   <block id="4f473a2a941d4fd7b4a68e3cd98e934c" category="list-text">Amazon FSX for ONTAP Sf.的特定需求</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">您可以選擇一次性資料複寫來複寫資料、這有助於您在雲端之間移動資料、或是循環排程、以協助進行災難恢復或長期保留。</block>
   <block id="f058b2239a935219edfc3818d7b5cb9e" category="inline-image-macro">螢幕擷取畫面：顯示工作環境置於另一個工作環境之上、以開始資料複寫程序。</block>
@@ -366,4 +365,5 @@
   <block id="dbfdbb36eb5065fce9a76d7ae82068ab" category="list-text"><block ref="dbfdbb36eb5065fce9a76d7ae82068ab" category="inline-link-rx"></block></block>
   <block id="cb4d7a152cb523ddb41e8b55186ecaf9" category="list-text">如果叢集位於內部部署、您應該要從公司網路連線到雲端中的虛擬網路。這通常是VPN連線。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
+  <block id="97d76d6ad65338f9dc1e8196be488382" category="paragraph"><block ref="97d76d6ad65338f9dc1e8196be488382" category="inline-link-rx"></block></block>
 </blocks>
