@@ -1,0 +1,15 @@
+= FSX for ONTAP Sfor Sfor the Data來源
+:allow-uri-read: 
+
+
+
+
+=== FSX for ONTAP Sfor Sfor the Data來源
+
+您現在可以將資料從Amazon FSX for ONTAP Sfingfile系統複寫到下列目的地：
+
+* Amazon FSX for ONTAP Sf
+* 內部部署 ONTAP 的叢集
+
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。

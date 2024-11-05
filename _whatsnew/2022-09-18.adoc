@@ -1,0 +1,11 @@
+= FSX for ONTAP Sfor Sfto Cloud Volumes ONTAP
+:allow-uri-read: 
+
+
+
+
+=== FSX for ONTAP Sfor Sfto Cloud Volumes ONTAP
+
+您現在可以將資料從Amazon FSX for ONTAP Sfor Sfor Sfor Sf供 檔案系統複寫至Cloud Volumes ONTAP 支援功能。
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
