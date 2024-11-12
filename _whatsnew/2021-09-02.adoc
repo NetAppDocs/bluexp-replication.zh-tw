@@ -1,5 +1,7 @@
 = 支援Amazon FSX for ONTAP Sfy
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 

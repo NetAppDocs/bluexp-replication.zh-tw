@@ -1,5 +1,7 @@
 = FSX for ONTAP Sfor Sfor the Data來源
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
