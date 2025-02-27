@@ -48,7 +48,6 @@
   <block id="06933067aafd48425d67bcb01bba5cb6" category="cell">更新</block>
   <block id="16685aa35f9f2843a357407642b0d7d9" category="cell">開始遞增傳輸以更新目的地 Volume 。</block>
   <block id="f2a6c498fb90ee345d997f888fce3b18" category="cell">刪除</block>
-  <block id="09cd2e52d52004647bc6c39549be0b94" category="cell">刪除來源與目的地磁碟區之間的資料保護關係、這表示磁碟區之間不再發生資料複寫。此動作不會啟動目的地 Volume 以進行資料存取。如果系統之間沒有其他資料保護關係、此動作也會刪除叢集對等關係和儲存VM（SVM）對等關係。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
@@ -366,4 +365,5 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">若要為 Cloud Volumes ONTAP 啟用下列關鍵工作流程、必須將 NetApp 支援網站認證與您的 BlueXP  組織建立關聯：</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">將 NSS 認證與您的 BlueXP  組織建立關聯、不同於與 BlueXP  使用者登入相關聯的 NSS 帳戶。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">這些 NSS 認證會與您的特定 BlueXP  組織 ID 相關聯。屬於 BlueXP  組織的使用者可從 * 支援 &gt; NSS 管理 * 存取這些認證。</block>
+  <block id="d1325501ee070fd499d61b4cb3ec234d" category="cell">刪除來源與目的地磁碟區之間的資料保護關係、這表示磁碟區之間不再發生資料複寫。此動作不會啟動目的地 Volume 以進行資料存取。</block>
 </blocks>
